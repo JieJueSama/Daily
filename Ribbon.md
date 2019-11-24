@@ -68,8 +68,11 @@ spring:
 **ribbon+restTemplate**  
 RestTemplate是Spring Web模块提供的一个基于Rest规范提供Http请求的工具。  
 Ribbon是springcloud中客户端负载均衡的组件。  
-在程序的IOC容器中注入一个RestTemplate的bean，并在这个bean上加上__@LoadBalanced__注解，此时RestTemplate就结合Ribbon开启了负载均衡功能  
+在程序的IOC容器中注入一个RestTemplate的bean，并在这个bean上加上@LoadBalanced注解，此时RestTemplate就结合Ribbon开启了负载均衡功能  
 通过RestTemplate发送RPC请求，然后通过Ribbon做客户端负载均衡  
+###　ＲＰＣ
+RPC（Remote Procedure Call）－－远程过程调用　　
+
 
 
 
