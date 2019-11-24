@@ -4,7 +4,7 @@ Feign是一个声明式web服务客户端、Spring Cloud的Netflix中提供实�
 因为Feign和ribbon都是用来实现负载均衡的组件，为什么要使用feign而不使用ribbon   
 ### Feign和Ribbon的区别:  
 **1.启动类使用的注解不同**  
-Ribbon用的是@RibbonClient，Feign用的是@EnableFeignClients。 
+Ribbon用的是@RibbonClient，Feign用的是@EnableFeignClients。   
 **2.服务的指定位置不同**   
 Ribbon是在@RibbonClient注解上声明，Feign则是在定义抽象方法的接口中使用@FeignClient声明。  
 **3.调用方式不同**    
