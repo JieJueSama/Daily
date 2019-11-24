@@ -99,18 +99,18 @@ Ribbon是springcloud中客户端负载均衡的组件。
 通过RestTemplate发送RPC请求，然后通过Ribbon做客户端负载均衡  
 ### RPC
 RPC（Remote Procedure Call）－－远程过程调用,可以实现客户端像调用本地服务(方法)一样调用服务器的服务(方法)  
-**客户端调用远程服务**
-1.客户端client发起服务调用请求。
-2.client stub 可以理解成一个代理，会将调用方法、参数按照一定格式进行封装，通过服务提供的地址，发起网络请求。
-3.消息通过网络传输到服务端。
-4.server stub接受来自socket的消息
-5.server stub将消息进行解包、告诉服务端调用的哪个服务，参数是什么
-6.结果返回给server stub。
-7.sever stub把结果进行打包交给socket
-8.socket通过网络传输消息
-9.client slub 从socket拿到消息。
-10.client stub解包消息将结果返回给client。 
-我理解的就是2~9就是远程调用      rpc  
+**客户端调用远程服务**  
+1.客户端client发起服务调用请求。  
+2.client stub 可以理解成一个代理，会将调用方法、参数按照一定格式进行封装，通过服务提供的地址，发起网络请求。  
+3.消息通过网络传输到服务端。  
+4.server stub接受来自socket的消息  
+5.server stub将消息进行解包、告诉服务端调用的哪个服务，参数是什么  
+6.结果返回给server stub。  
+7.sever stub把结果进行打包交给socket  
+8.socket通过网络传输消息  
+9.client slub 从socket拿到消息。  
+10.client stub解包消息将结果返回给client。   
+我理解的就是2~9就是远程调用      rpc   
 
 
 
