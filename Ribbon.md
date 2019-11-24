@@ -17,7 +17,13 @@ Ribbon是在客户端实现负载均衡。
 * 实现负载均衡，达到系统的高可用
 * 提供了多种负载均衡策略，可以自定义负载均衡算法  
 # Ribbon怎么使用  
-
+pom文件ribbon的依赖
+```
+ <dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-ribbon</artifactId>
+  </dependency>
+```
 
 
 
