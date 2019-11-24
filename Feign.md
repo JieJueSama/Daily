@@ -17,7 +17,17 @@ pom.xml依赖
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
-```  
+```   
+application.yml   
+```
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: product-view-service-feign
+```   
 启动类添加 @EnableFeignClients 注解支持  表示开启Feign  
 ```java
 @SpringBootApplication
