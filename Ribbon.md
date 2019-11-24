@@ -51,7 +51,20 @@ spring:
         return restTemplate.getForObject("http://PRODUCT-DATA-SERVICE/products",List.class);
     }
 ```
-上面是GET方式的getForObject
+上面是GET方式的getForObject    
+### 在RestTemplate中   
+##### GET请求  
+***第一种：getForEntity函数。***  
+返回的是ResponseEntity，除了需要的具体信息还返回了HTTP的几个元素，如状态码，HTTP请求的头信息对象HttpHeaders。。。  
+***第二种：getForObject函数。***  
+对getForEntity的进一步封装  
+少一个从Response中获取body的步骤  
+##### POST请求  
+***第一种：postForEntity函数。***  
+该方法同GET请求中的getForEntity类似，会在调用后返回ResponseEntity对象  
+***第二种：postForObject函数。***  
+简化postForEntity的后续处理。通过直接将请求响应的body内容包装成对象来返回使用  
+
 
 
 
