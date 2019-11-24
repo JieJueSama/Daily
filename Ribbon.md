@@ -64,6 +64,13 @@ spring:
 该方法同GET请求中的getForEntity类似，会在调用后返回ResponseEntity对象  
 ***第二种：postForObject函数。***  
 简化postForEntity的后续处理。通过直接将请求响应的body内容包装成对象来返回使用  
+# 微服务之间互相调用  
+**ribbon+restTemplate**  
+RestTemplate是Spring Web模块提供的一个基于Rest规范提供Http请求的工具。  
+Ribbon是springcloud中客户端负载均衡的组件。  
+在程序的IOC容器中注入一个RestTemplate的bean，并在这个bean上加上__@LoadBalanced__注解，此时RestTemplate就结合Ribbon开启了负载均衡功能  
+通过RestTemplate发送RPC请求，然后通过Ribbon做客户端负载均衡  
+
 
 
 
