@@ -119,10 +119,10 @@ printf("输出控制符 非输出控制符", 输出参数);
 ```  
 - 输出控制符包含如下   
 | :----: | :----: |
-| %d | int |
+| %d  | int |
 | %ld | long int |
-| %c | char |
-| %f | float |
+| %c  | char |
+| %f  | float |
 | %lf | double |
 | 十六进制 %x(或者%X或者%#X) | int或long int或short int |
 | 八进制 %o | int或long int或short int |
