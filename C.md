@@ -118,16 +118,16 @@ printf("输出控制符1 输出控制符2 。。。"， 输出参数1, 输出参
 printf("输出控制符 非输出控制符", 输出参数);
 ```  
 - 输出控制符包含如下  
-| 输出控制符 | 类型 |
-| :--: | :--: |
-| %d  | int |
-| %ld | long int |
-| %c  | char |
-| %f  | float |
-| %lf | double |
-| 十六进制 %x(或者%X或者%#X) | int或long int或short int |
-| 八进制 %o | int或long int或short int |
-| %s | 字符串 |
+| 输出控制符 | 类型 |   
+| :--: | :--: |   
+| %d  | int |    
+| %ld | long int |    
+| %c  | char |    
+| %f  | float |    
+| %lf | double |    
+| 十六进制 %x(或者%X或者%#X) | int或long int或short int |    
+| 八进制 %o | int或long int或short int |   
+| %s | 字符串 |   
 - 为什么输出控制符   
     - 01组成的代码可以表示数据也可以表示指令    
     - 如果01组成的代码表示的是数据的话，那么同样的01代码组合以不同的输出格式输出就会有不同的输出结果    
