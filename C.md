@@ -228,6 +228,106 @@ printf("输出控制符 非输出控制符", 输出参数);
             语句A；
             ```
             2.执行的流程    
-            1 -> 2 -> 语句A -> 3 -> 2 -> 语句A -> 3 .......
+            1 -> 2 -> 语句A -> 3 -> 2 -> 语句A -> 3 .......     
+        - while
+            1.格式    
+            ```c
+            while(表达式)
+            语句;
+            ```
+            2.和for的相互比较
+            ```c
+            //for和while可以相互转化  
+            for(1;2;3)
+            A;
+            //等价于
+            1;
+            while(2)
+            {
+              A;
+              3;
+            }
+            //for和while可以相互转化
+            //但for的逻辑性更强，更不容易出错，推荐多使用for
+            ```
+        - do...while    
+            1.格式    
+            ```c
+            do
+            {
+            ......
+            } while(表达式);
+            //do...while并不等价于for，当然也不等价于while
+            //因为do...while至少执行一遍，而for和while如果判断条件不成立则一次都不执行
+            ```
+- break和continue    
+    - break    
+        - break如果用于循环是用来终止循环
+        - break如果用于switch，则是用于终止switch    
+        - break不能直接用于if，除非if属于循环内部的一个子语句
+        ```c
+        for(int i = 0; i < 3; i++){
+          if(3>2)
+            break;//break虽然是if内部的语句，但break终止的却是外部的for循环
+          printf("嘿嘿！\n");//永远不会输出
+        }
+        ```
+        - 在多层循环中，break只能终止最里面包裹他的那个循环
+        ```c
+        for(int i = 0; i < 3; i++){
+          for(int j = 0; j < 4; ++j){
+            break;//break只能终止距离它最近的循环
+          }
+          printf("同志们好!\n");
+        }
+        ```
+        - 在多层switch嵌套中，break只能终止距离它最近的switch    
+        ```c
+        int x = 1, y = 0, a = 0, b = 0;
+        switch(x)//第一个switch
+        {
+          case 1: 
+            switch(y)//第二个switch
+            {
+              case 0:  
+                a++;
+                break;
+              case 1:　
+                b++;
+                break;
+            }
+          case 2: 
+            a++;
+            b++;
+            break;
+        }
+        printf("%d %d\n", a, b);
+        //最终输出结果是：1　100
+        ```
+    - continue    
+        - 用于跳过本次循环余下的语句    
+        - 转去判断是否需要执行下次循环    
+        ```c
+        for(1;2;3){
+          A;
+          B;
+          continue;//如果执行该语句，则该语句执行完，会执行3，C和D都会被跳过去，C和D不会被执行
+          C;
+          D;
+        }
+        ```
+        ```c
+        while(表达式)
+        {
+          A;
+          B;
+          continue;//如果执行该语句，则执行完该语句后，会执行表达式，C和D都会被跳过去，C和D不会被执行
+          C;
+          D;
+        }
+        ```
+        
+        
+# 数组
 
 
