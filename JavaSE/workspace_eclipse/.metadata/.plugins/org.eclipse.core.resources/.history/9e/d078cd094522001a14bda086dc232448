@@ -1,0 +1,14 @@
+package com.zjx.java;
+
+/*
+ * 数组元素的默认初始化值
+ * 
+ * 
+ */
+
+public class ArrayTest1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.zjx.contact;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+	}
+
+}
