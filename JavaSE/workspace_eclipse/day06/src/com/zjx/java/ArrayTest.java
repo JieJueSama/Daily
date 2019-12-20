@@ -28,6 +28,9 @@ package com.zjx.java;
  * 如何遍历数组
  * 数组元素的默认初始化值  参见ArrayTest1
  * 数组的内存解析 参见ArrayTest1
+ * 
+ * 
+ * 数组一旦初始化长度就确定了
  */
 public class ArrayTest {
 	
