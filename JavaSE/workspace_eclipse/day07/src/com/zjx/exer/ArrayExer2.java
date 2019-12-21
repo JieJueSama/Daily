@@ -17,6 +17,15 @@ public class ArrayExer2 {
 	public static void main(String[] args) {
 		int[] array1 = new int[] {2,3,5,7,11,13,17,19};
 		
+		int[] array2 = new int[array1.length];
+		
+		//数组复制
+		for(int i = 0; i < array1.length; i++) {
+			array2[i] = array1[i];
+			System.out.print(array2[i] + " ");
+		}
+		System.out.println();
+		
 		
 		
 		
