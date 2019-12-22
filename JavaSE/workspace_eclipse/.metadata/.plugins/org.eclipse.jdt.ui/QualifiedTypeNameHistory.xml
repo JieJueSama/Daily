@@ -5,4 +5,10 @@
 <fullyQualifiedTypeName name="com.zjx.java1.OverloadTest"/>
 <fullyQualifiedTypeName name="com.zjx.java1.MethodArgsTest"/>
 <fullyQualifiedTypeName name="com.zjx.java1.ValueTransferTest2"/>
+<fullyQualifiedTypeName name="com.zjx.java2.RecursionTest"/>
+<fullyQualifiedTypeName name="com.zjx.java.ValueTransferTest"/>
+<fullyQualifiedTypeName name="com.zjx.java.Animal"/>
+<fullyQualifiedTypeName name="com.zjx.java.Order"/>
+<fullyQualifiedTypeName name="com.zjx.java1.Person"/>
+<fullyQualifiedTypeName name="com.zjx.java2.Person"/>
 </qualifiedTypeNameHistroy>
