@@ -1,23 +1,6 @@
 INDEX VERSION 1.131+D:\github\Daily\JavaSE\workspace_eclipse\.metadata\.plugins\org.eclipse.jdt.core
-399650276.index
-3349123533.index
-191921819.index
-3948674646.index
-2586320517.index
-3824985880.index
-1951063779.index
+1853544561.index
+4274374112.index
 427682023.index
-1439913317.index
-1665541264.index
-1946248595.index
-1313568564.index
-409593780.index
-2514483141.index
 3715829376.index
 2311255414.index
-801603288.index
-3648356600.index
-2870341566.index
-3697250434.index
-1953540017.index
-1853544561.index

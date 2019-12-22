@@ -18,6 +18,7 @@ package com.zjx.java;
  * 	对象：是实际存在的该类事物的每个个体，因此也称为实例（instance）
  * 	》面向对象程序设计的重点就是类的设计
  * 	》设计类，就是设计类的成员
+ * 
  * 	
  */
 public class OOPTest {

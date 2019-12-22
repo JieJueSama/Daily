@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.zjx.java1.OverloadTest"/>
+<fullyQualifiedTypeName name="com.zjx.java1.MethodArgsTest"/>
+<fullyQualifiedTypeName name="com.zjx.java1.ValueTransferTest2"/>
 </qualifiedTypeNameHistroy>
