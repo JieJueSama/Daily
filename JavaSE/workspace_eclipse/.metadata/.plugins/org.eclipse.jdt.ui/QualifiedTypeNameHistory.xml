@@ -11,4 +11,13 @@
 <fullyQualifiedTypeName name="com.zjx.java.Order"/>
 <fullyQualifiedTypeName name="com.zjx.java1.Person"/>
 <fullyQualifiedTypeName name="com.zjx.java2.Person"/>
+<fullyQualifiedTypeName name="com.zjx.java.Creature"/>
+<fullyQualifiedTypeName name="com.zjx.java1.Student"/>
+<fullyQualifiedTypeName name="com.zjx.java2.Order"/>
+<fullyQualifiedTypeName name="com.zjx.java3.OrderTest"/>
+<fullyQualifiedTypeName name="com.zjx.java3.Student"/>
+<fullyQualifiedTypeName name="com.zjx.java4.Person"/>
+<fullyQualifiedTypeName name="com.zjx.java4.Man"/>
+<fullyQualifiedTypeName name="com.zjx.java4.Animal"/>
+<fullyQualifiedTypeName name="com.zjx.java4.AnimalTest"/>
 </qualifiedTypeNameHistroy>
