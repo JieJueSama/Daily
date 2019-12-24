@@ -6898,3 +6898,1707 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-12-24 09:00:22.307 -----------------------------------------------
+eclipse.buildId=3.9.10.201909190739-RELEASE-e413
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2019-12-24 09:00:35.501
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-24 09:00:35.501
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72998021,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@761a0bbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-24 09:00:53.436
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dn9'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.117
+!MESSAGE Cannot handle org.w3c.dom.xpath [in D:\JDK\jre\lib\rt.jar]
+  XPathEvaluator.class (not open)
+  XPathException.class (not open)
+  XPathExpression.class (not open)
+  XPathNSResolver.class (not open)
+  XPathNamespace.class (not open)
+  XPathResult.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.134
+!MESSAGE Cannot handle org.omg.stub.java.rmi [in D:\JDK\jre\lib\rt.jar]
+  _Remote_Stub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.135
+!MESSAGE Cannot handle org.omg.CosNaming.NamingContextExtPackage [in D:\JDK\jre\lib\rt.jar]
+  AddressHelper.class (not open)
+  InvalidAddress.class
+    class InvalidAddress
+  InvalidAddressHelper.class
+    class InvalidAddressHelper
+  InvalidAddressHolder.class
+    class InvalidAddressHolder
+  StringNameHelper.class (not open)
+  URLStringHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.194
+!MESSAGE Cannot handle org.omg.PortableServer.CurrentPackage [in D:\JDK\jre\lib\rt.jar]
+  NoContext.class (not open)
+  NoContextHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.200
+!MESSAGE Cannot handle org.omg.Messaging [in D:\JDK\jre\lib\rt.jar]
+  SYNC_WITH_TRANSPORT.class (not open)
+  SyncScopeHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.202
+!MESSAGE Cannot handle org.junit.runner.notification [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  Failure.class
+    class Failure
+  RunNotifier.class (not open)
+  RunNotifier$1.class (not open)
+  RunNotifier$2.class (not open)
+  RunNotifier$3.class (not open)
+  RunListener$ThreadSafe.class
+    @interface ThreadSafe
+  RunNotifier$4.class (not open)
+  SynchronizedRunListener.class (not open)
+  RunNotifier$SafeNotifier.class (not open)
+  RunNotifier$5.class (not open)
+  StoppedByUserException.class (not open)
+  RunNotifier$6.class (not open)
+  RunNotifier$7.class (not open)
+  RunListener.class
+    class RunListener as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.203
+!MESSAGE Cannot handle org.omg.stub.javax.management.remote [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.205
+!MESSAGE Cannot handle org.omg.CORBA_2_3 [in D:\JDK\jre\lib\rt.jar]
+  ORB.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.206
+!MESSAGE Cannot handle org.omg.CosNaming.NamingContextPackage [in D:\JDK\jre\lib\rt.jar]
+  AlreadyBound.class (not open)
+  AlreadyBoundHelper.class (not open)
+  AlreadyBoundHolder.class (not open)
+  CannotProceed.class (not open)
+  CannotProceedHelper.class (not open)
+  CannotProceedHolder.class (not open)
+  InvalidName.class
+    class InvalidName
+  InvalidNameHelper.class
+    class InvalidNameHelper
+  InvalidNameHolder.class
+    class InvalidNameHolder
+  NotEmpty.class (not open)
+  NotEmptyHelper.class (not open)
+  NotEmptyHolder.class (not open)
+  NotFound.class (not open)
+  NotFoundHelper.class (not open)
+  NotFoundHolder.class (not open)
+  NotFoundReason.class (not open)
+  NotFoundReasonHelper.class (not open)
+  NotFoundReasonHolder.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.207
+!MESSAGE Cannot handle org.junit.experimental.theories.suppliers [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  TestedOnSupplier.class (not open)
+  TestedOn.class
+    @interface TestedOn as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.209
+!MESSAGE Cannot handle org.omg.CORBA.portable [in D:\JDK\jre\lib\rt.jar]
+  ApplicationException.class (not open)
+  BoxedValueHelper.class (not open)
+  CustomValue.class (not open)
+  Delegate.class (not open)
+  IDLEntity.class
+    interface IDLEntity
+  IndirectionException.class
+    class IndirectionException
+  InputStream.class
+    class InputStream
+  InvokeHandler.class
+    interface InvokeHandler
+  ObjectImpl.class (not open)
+  OutputStream.class
+    class OutputStream
+  RemarshalException.class (not open)
+  ResponseHandler.class (not open)
+  ServantObject.class (not open)
+  Streamable.class
+    interface Streamable
+  StreamableValue.class (not open)
+  UnknownException.class (not open)
+  ValueBase.class (not open)
+  ValueFactory.class (not open)
+  ValueInputStream.class (not open)
+  ValueOutputStream.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.210
+!MESSAGE Cannot handle org.junit [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ClassRule.class (not open)
+  Assert.class
+    class Assert
+  After.class (not open)
+  AssumptionViolatedException.class (not open)
+  ComparisonFailure$ComparisonCompactor$DiffExtractor.class (not open)
+  Assume.class
+    class Assume
+  ComparisonFailure.class (not open)
+  Test$None.class (not open)
+  ComparisonFailure$1.class (not open)
+  Ignore.class (not open)
+  BeforeClass.class (not open)
+  Before.class (not open)
+  Test.class
+    @interface Test
+  AfterClass.class (not open)
+  FixMethodOrder.class
+    @interface FixMethodOrder
+  ComparisonFailure$ComparisonCompactor.class (not open)
+  Rule.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.212
+!MESSAGE Cannot handle org.junit.experimental [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ParallelComputer$1.class (not open)
+  ParallelComputer.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.213
+!MESSAGE Cannot handle org.junit.runners.model [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  MultipleFailureException.class (not open)
+  RunnerScheduler.class (not open)
+  NoGenericTypeParametersValidator.class (not open)
+  TestClass$1.class (not open)
+  RunnerBuilder.class (not open)
+  Annotatable.class
+    interface Annotatable
+  FrameworkField.class
+    class FrameworkField
+  Statement.class
+    class Statement
+  TestTimedOutException.class (not open)
+  FrameworkMember.class
+    class FrameworkMember
+  TestClass.class (not open)
+  TestClass$FieldComparator.class (not open)
+  FrameworkMethod.class
+    class FrameworkMethod
+  TestClass$MethodComparator.class (not open)
+  InitializationError.class
+    class InitializationError
+  FrameworkMethod$1.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.214
+!MESSAGE Cannot handle org.junit.internal.matchers [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ThrowableMessageMatcher.class (not open)
+  TypeSafeMatcher.class (not open)
+  StacktracePrintingMatcher.class (not open)
+  ThrowableCauseMatcher.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.216
+!MESSAGE Cannot handle org.junit.internal.builders [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  IgnoredClassRunner.class (not open)
+  JUnit4Builder.class (not open)
+  AnnotatedBuilder.class (not open)
+  IgnoredBuilder.class (not open)
+  JUnit3Builder.class (not open)
+  AllDefaultPossibilitiesBuilder.class (not open)
+  NullBuilder.class (not open)
+  SuiteMethodBuilder.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.218
+!MESSAGE Cannot handle org.jcp.xml.dsig [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.219
+!MESSAGE Cannot handle org.omg.PortableServer.POAManagerPackage [in D:\JDK\jre\lib\rt.jar]
+  AdapterInactive.class (not open)
+  AdapterInactiveHelper.class (not open)
+  State.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.221
+!MESSAGE Cannot handle org.w3c.dom.events [in D:\JDK\jre\lib\rt.jar]
+  EventListener.class (not open)
+  MouseEvent.class (not open)
+  UIEvent.class (not open)
+  EventException.class (not open)
+  MutationEvent.class (not open)
+  Event.class (not open)
+  DocumentEvent.class (not open)
+  EventTarget.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.222
+!MESSAGE Cannot handle org.omg.CosNaming [in D:\JDK\jre\lib\rt.jar]
+  Binding.class (not open)
+  BindingHelper.class (not open)
+  BindingHolder.class (not open)
+  BindingIterator.class (not open)
+  BindingIteratorHelper.class (not open)
+  BindingIteratorHolder.class (not open)
+  BindingIteratorOperations.class (not open)
+  BindingIteratorPOA.class (not open)
+  BindingListHelper.class (not open)
+  BindingListHolder.class (not open)
+  BindingType.class (not open)
+  BindingTypeHelper.class (not open)
+  BindingTypeHolder.class (not open)
+  IstringHelper.class (not open)
+  NameComponent.class (not open)
+  NameComponentHelper.class (not open)
+  NameComponentHolder.class (not open)
+  NameHelper.class (not open)
+  NameHolder.class (not open)
+  NamingContext.class (not open)
+  NamingContextExt.class (not open)
+  NamingContextExtHelper.class (not open)
+  NamingContextExtHolder.class (not open)
+  NamingContextExtOperations.class (not open)
+  NamingContextExtPOA.class (not open)
+  NamingContextHelper.class (not open)
+  NamingContextHolder.class (not open)
+  NamingContextOperations.class (not open)
+  NamingContextPOA.class (not open)
+  _BindingIteratorImplBase.class (not open)
+  _BindingIteratorStub.class (not open)
+  _NamingContextExtStub.class (not open)
+  _NamingContextImplBase.class (not open)
+  _NamingContextStub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.225
+!MESSAGE Cannot handle org.jcp.xml.dsig.internal [in D:\JDK\jre\lib\rt.jar]
+  DigesterOutputStream.class (not open)
+  MacOutputStream.class (not open)
+  SignerOutputStream.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.228
+!MESSAGE Cannot handle org.junit.runners [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  AllTests.class (not open)
+  Suite$SuiteClasses.class (not open)
+  JUnit4.class (not open)
+  ParentRunner$1.class (not open)
+  BlockJUnit4ClassRunner.class (not open)
+  Parameterized$Parameters.class (not open)
+  MethodSorters.class (not open)
+  ParentRunner$2.class (not open)
+  ParentRunner$3.class (not open)
+  Parameterized$UseParametersRunnerFactory.class (not open)
+  ParentRunner$4.class (not open)
+  ParentRunner.class (not open)
+  BlockJUnit4ClassRunner$1.class (not open)
+  Parameterized$Parameter.class (not open)
+  Suite.class (not open)
+  Parameterized.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.229
+!MESSAGE Cannot handle org.junit.rules [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  Stopwatch$Clock.class (not open)
+  DisableOnDebug.class (not open)
+  ExternalResource.class (not open)
+  TestWatcher$1.class (not open)
+  TemporaryFolder.class (not open)
+  Timeout$Builder.class (not open)
+  RunRules.class (not open)
+  TestWatchman$1.class (not open)
+  Verifier$1.class (not open)
+  ExpectedException.class (not open)
+  ExpectedException$ExpectedExceptionStatement.class (not open)
+  RuleChain.class (not open)
+  ErrorCollector$1.class (not open)
+  TestRule.class (not open)
+  Verifier.class (not open)
+  Stopwatch.class (not open)
+  Stopwatch$1.class (not open)
+  Timeout.class (not open)
+  ExpectedExceptionMatcherBuilder.class (not open)
+  MethodRule.class (not open)
+  Timeout$1.class (not open)
+  ExternalResource$1.class (not open)
+  TestWatchman.class (not open)
+  ErrorCollector.class (not open)
+  TestWatcher.class (not open)
+  Stopwatch$InternalWatcher.class (not open)
+  TestName.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.231
+!MESSAGE Cannot handle org.junit.experimental.categories [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ExcludeCategories$ExcludesAny.class (not open)
+  IncludeCategories.class
+    class IncludeCategories
+  ExcludeCategories.class (not open)
+  Categories$CategoryFilter.class (not open)
+  Categories$ExcludeCategory.class (not open)
+  CategoryValidator.class (not open)
+  IncludeCategories$IncludesAny.class (not open)
+  Category.class (not open)
+  CategoryFilterFactory.class
+    class CategoryFilterFactory
+  Categories.class (not open)
+  Categories$IncludeCategory.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.232
+!MESSAGE Cannot handle org.hamcrest.internal [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar]
+  ArrayIterator.class (not open)
+  ReflectiveTypeFinder.class (not open)
+  SelfDescribingValue.class (not open)
+  SelfDescribingValueIterator.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.232
+!MESSAGE Cannot handle org.omg.CORBA.ORBPackage [in D:\JDK\jre\lib\rt.jar]
+  InconsistentTypeCode.class
+    class InconsistentTypeCode
+  InvalidName.class
+    class InvalidName as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.233
+!MESSAGE Cannot handle org.junit.internal.runners [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  JUnit38ClassRunner$OldTestClassAdaptingListener.class (not open)
+  JUnit4ClassRunner$1.class (not open)
+  MethodRoadie$2.class (not open)
+  TestMethod.class (not open)
+  MethodRoadie$1.class (not open)
+  TestClass.class (not open)
+  ErrorReportingRunner.class (not open)
+  JUnit4ClassRunner.class (not open)
+  FailedBefore.class (not open)
+  JUnit4ClassRunner$2.class (not open)
+  MethodValidator.class (not open)
+  JUnit38ClassRunner.class (not open)
+  SuiteMethod.class (not open)
+  MethodRoadie.class (not open)
+  InitializationError.class
+    class InitializationError
+  ClassRoadie.class (not open)
+  JUnit38ClassRunner$1.class (not open)
+  MethodRoadie$1$1.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.234
+!MESSAGE Cannot handle org.omg.stub [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.235
+!MESSAGE Cannot handle org.w3c.dom.ranges [in D:\JDK\jre\lib\rt.jar]
+  RangeException.class (not open)
+  Range.class (not open)
+  DocumentRange.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.235
+!MESSAGE Cannot handle org.junit.internal.requests [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  FilterRequest.class
+    class FilterRequest
+  ClassRequest.class (not open)
+  SortingRequest.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.236
+!MESSAGE Cannot handle org.omg.stub.javax.management [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.237
+!MESSAGE Cannot handle oracle.jrockit.jfr.openmbean [in D:\JDK\jre\lib\jfr.jar]
+  EventDefaultType.class (not open)
+  EventDescriptorType.class (not open)
+  EventSettingType.class (not open)
+  JFRMBeanType.class (not open)
+  JFRStatsType.class (not open)
+  LazyImmutableJFRMBeanType$ImmutableCompositeData.class (not open)
+  LazyImmutableJFRMBeanType.class (not open)
+  Member.class (not open)
+  PresetFileType.class (not open)
+  ProducerDescriptorType.class (not open)
+  RecordingOptionsType.class (not open)
+  RecordingType.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.238
+!MESSAGE Cannot handle oracle.jrockit.jfr.events [in D:\JDK\jre\lib\jfr.jar]
+  Bits.class (not open)
+  ContentTypeImpl.class (not open)
+  DataStructureDescriptor.class (not open)
+  DynamicValueDescriptor.class (not open)
+  EventControl.class (not open)
+  EventDescriptor.class (not open)
+  EventHandler.class (not open)
+  EventHandlerCreator$1.class (not open)
+  EventHandlerCreator$2.class (not open)
+  EventHandlerCreator$EventInfoClassLoader.class (not open)
+  EventHandlerCreator.class (not open)
+  EventHandlerImpl$1$1.class (not open)
+  EventHandlerImpl$1.class (not open)
+  EventHandlerImpl.class (not open)
+  JavaEventDescriptor.class (not open)
+  JavaProducerDescriptor.class (not open)
+  RequestableEventEnvironment.class (not open)
+  ValueDescriptor.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.238
+!MESSAGE Cannot handle org.omg.PortableServer.portable [in D:\JDK\jre\lib\rt.jar]
+  Delegate.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.239
+!MESSAGE Cannot handle org.omg.CORBA [in D:\JDK\jre\lib\rt.jar]
+  ACTIVITY_COMPLETED.class (not open)
+  ACTIVITY_REQUIRED.class (not open)
+  ARG_IN.class (not open)
+  ARG_INOUT.class (not open)
+  ARG_OUT.class (not open)
+  Any.class
+    class Any
+  AnyHolder.class (not open)
+  AnySeqHelper.class (not open)
+  AnySeqHolder.class (not open)
+  BAD_CONTEXT.class (not open)
+  BAD_INV_ORDER.class (not open)
+  BAD_OPERATION.class (not open)
+  BAD_PARAM.class (not open)
+  BAD_POLICY.class (not open)
+  BAD_POLICY_TYPE.class (not open)
+  BAD_POLICY_VALUE.class (not open)
+  BAD_QOS.class (not open)
+  BAD_TYPECODE.class (not open)
+  BooleanHolder.class (not open)
+  BooleanSeqHelper.class (not open)
+  BooleanSeqHolder.class (not open)
+  Bounds.class (not open)
+  ByteHolder.class (not open)
+  CODESET_INCOMPATIBLE.class (not open)
+  COMM_FAILURE.class (not open)
+  CTX_RESTRICT_SCOPE.class (not open)
+  CharHolder.class (not open)
+  CharSeqHelper.class (not open)
+  CharSeqHolder.class (not open)
+  CompletionStatus.class (not open)
+  CompletionStatusHelper.class (not open)
+  Context.class (not open)
+  ContextList.class (not open)
+  Current.class (not open)
+  CurrentHelper.class (not open)
+  CurrentHolder.class (not open)
+  CurrentOperations.class (not open)
+  CustomMarshal.class (not open)
+  DATA_CONVERSION.class (not open)
+  DataInputStream.class (not open)
+  DataOutputStream.class (not open)
+  DefinitionKind.class (not open)
+  DefinitionKindHelper.class (not open)
+  DomainManager.class (not open)
+  DomainManagerOperations.class (not open)
+  DoubleHolder.class (not open)
+  DoubleSeqHelper.class (not open)
+  DoubleSeqHolder.class (not open)
+  DynAny.class (not open)
+  DynArray.class (not open)
+  DynEnum.class (not open)
+  DynFixed.class (not open)
+  DynSequence.class (not open)
+  DynStruct.class (not open)
+  DynUnion.class (not open)
+  DynValue.class (not open)
+  DynamicImplementation.class (not open)
+  Environment.class (not open)
+  ExceptionList.class (not open)
+  FREE_MEM.class
+    class FREE_MEM
+  FieldNameHelper.class
+    class FieldNameHelper
+  FixedHolder.class
+    class FixedHolder
+  FloatHolder.class
+    class FloatHolder
+  FloatSeqHelper.class
+    class FloatSeqHelper
+  FloatSeqHolder.class
+    class FloatSeqHolder
+  IDLType.class (not open)
+  IDLTypeHelper.class (not open)
+  IDLTypeOperations.class (not open)
+  IMP_LIMIT.class (not open)
+  INITIALIZE.class (not open)
+  INTERNAL.class (not open)
+  INTF_REPOS.class (not open)
+  INVALID_ACTIVITY.class (not open)
+  INVALID_TRANSACTION.class (not open)
+  INV_FLAG.class (not open)
+  INV_IDENT.class (not open)
+  INV_OBJREF.class (not open)
+  INV_POLICY.class (not open)
+  IRObject.class (not open)
+  IRObjectOperations.class (not open)
+  IdentifierHelper.class (not open)
+  IntHolder.class
+    class IntHolder
+  LocalObject.class (not open)
+  LongHolder.class (not open)
+  LongLongSeqHelper.class (not open)
+  LongLongSeqHolder.class (not open)
+  LongSeqHelper.class (not open)
+  LongSeqHolder.class (not open)
+  MARSHAL.class (not open)
+  NO_IMPLEMENT.class (not open)
+  NO_MEMORY.class (not open)
+  NO_PERMISSION.class (not open)
+  NO_RESOURCES.class (not open)
+  NO_RESPONSE.class (not open)
+  NVList.class (not open)
+  NameValuePair.class (not open)
+  NameValuePairHelper.class (not open)
+  NamedValue.class (not open)
+  OBJECT_NOT_EXIST.class (not open)
+  OBJ_ADAPTER.class (not open)
+  OMGVMCID.class (not open)
+  ORB$1.class (not open)
+  ORB$2.class (not open)
+  ORB.class (not open)
+  Object.class
+    interface Object
+  ObjectHelper.class (not open)
+  ObjectHolder.class (not open)
+  OctetSeqHelper.class (not open)
+  OctetSeqHolder.class (not open)
+  PERSIST_STORE.class (not open)
+  PRIVATE_MEMBER.class (not open)
+  PUBLIC_MEMBER.class (not open)
+  ParameterMode.class (not open)
+  ParameterModeHelper.class (not open)
+  ParameterModeHolder.class (not open)
+  Policy.class (not open)
+  PolicyError.class (not open)
+  PolicyErrorCodeHelper.class (not open)
+  PolicyErrorHelper.class (not open)
+  PolicyErrorHolder.class (not open)
+  PolicyHelper.class (not open)
+  PolicyHolder.class (not open)
+  PolicyListHelper.class (not open)
+  PolicyListHolder.class (not open)
+  PolicyOperations.class (not open)
+  PolicyTypeHelper.class (not open)
+  Principal.class
+    class Principal
+  PrincipalHolder.class (not open)
+  REBIND.class (not open)
+  RepositoryIdHelper.class (not open)
+  Request.class (not open)
+  ServerRequest.class (not open)
+  ServiceDetail.class (not open)
+  ServiceDetailHelper.class (not open)
+  ServiceInformation.class (not open)
+  ServiceInformationHelper.class (not open)
+  ServiceInformationHolder.class (not open)
+  SetOverrideType.class (not open)
+  SetOverrideTypeHelper.class (not open)
+  ShortHolder.class (not open)
+  ShortSeqHelper.class (not open)
+  ShortSeqHolder.class (not open)
+  StringHolder.class (not open)
+  StringSeqHelper.class (not open)
+  StringSeqHolder.class (not open)
+  StringValueHelper.class (not open)
+  StructMember.class (not open)
+  StructMemberHelper.class (not open)
+  SystemException.class
+    class SystemException
+  TCKind.class
+    class TCKind
+  TIMEOUT.class (not open)
+  TRANSACTION_MODE.class (not open)
+  TRANSACTION_REQUIRED.class (not open)
+  TRANSACTION_ROLLEDBACK.class (not open)
+  TRANSACTION_UNAVAILABLE.class (not open)
+  TRANSIENT.class (not open)
+  TypeCode.class
+    class TypeCode
+  TypeCodeHolder.class (not open)
+  ULongLongSeqHelper.class (not open)
+  ULongLongSeqHolder.class (not open)
+  ULongSeqHelper.class (not open)
+  ULongSeqHolder.class (not open)
+  UNKNOWN.class (not open)
+  UNSUPPORTED_POLICY.class (not open)
+  UNSUPPORTED_POLICY_VALUE.class (not open)
+  UShortSeqHelper.class (not open)
+  UShortSeqHolder.class (not open)
+  UnionMember.class (not open)
+  UnionMemberHelper.class (not open)
+  UnknownUserException.class (not open)
+  UnknownUserExceptionHelper.class (not open)
+  UnknownUserExceptionHolder.class (not open)
+  UserException.class
+    class UserException
+  VM_ABSTRACT.class (not open)
+  VM_CUSTOM.class (not open)
+  VM_NONE.class (not open)
+  VM_TRUNCATABLE.class (not open)
+  ValueBaseHelper.class (not open)
+  ValueBaseHolder.class (not open)
+  ValueMember.class (not open)
+  ValueMemberHelper.class (not open)
+  VersionSpecHelper.class (not open)
+  VisibilityHelper.class (not open)
+  WCharSeqHelper.class (not open)
+  WCharSeqHolder.class (not open)
+  WStringSeqHelper.class (not open)
+  WStringSeqHolder.class (not open)
+  WStringValueHelper.class (not open)
+  WrongTransaction.class (not open)
+  WrongTransactionHelper.class (not open)
+  WrongTransactionHolder.class (not open)
+  _IDLTypeStub.class (not open)
+  _PolicyStub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.240
+!MESSAGE Cannot handle org.w3c.dom.html [in D:\JDK\jre\lib\rt.jar]
+  HTMLAnchorElement.class (not open)
+  HTMLAppletElement.class (not open)
+  HTMLAreaElement.class (not open)
+  HTMLBRElement.class (not open)
+  HTMLBaseElement.class (not open)
+  HTMLBaseFontElement.class (not open)
+  HTMLBodyElement.class (not open)
+  HTMLButtonElement.class (not open)
+  HTMLCollection.class (not open)
+  HTMLDListElement.class (not open)
+  HTMLDOMImplementation.class (not open)
+  HTMLDirectoryElement.class (not open)
+  HTMLDivElement.class (not open)
+  HTMLDocument.class (not open)
+  HTMLElement.class (not open)
+  HTMLFieldSetElement.class (not open)
+  HTMLFontElement.class (not open)
+  HTMLFormElement.class (not open)
+  HTMLFrameElement.class (not open)
+  HTMLFrameSetElement.class (not open)
+  HTMLHRElement.class (not open)
+  HTMLHeadElement.class (not open)
+  HTMLHeadingElement.class (not open)
+  HTMLHtmlElement.class (not open)
+  HTMLIFrameElement.class (not open)
+  HTMLImageElement.class (not open)
+  HTMLInputElement.class (not open)
+  HTMLIsIndexElement.class (not open)
+  HTMLLIElement.class (not open)
+  HTMLLabelElement.class (not open)
+  HTMLLegendElement.class (not open)
+  HTMLLinkElement.class (not open)
+  HTMLMapElement.class (not open)
+  HTMLMenuElement.class (not open)
+  HTMLMetaElement.class (not open)
+  HTMLModElement.class (not open)
+  HTMLOListElement.class (not open)
+  HTMLObjectElement.class (not open)
+  HTMLOptGroupElement.class (not open)
+  HTMLOptionElement.class (not open)
+  HTMLParagraphElement.class (not open)
+  HTMLParamElement.class (not open)
+  HTMLPreElement.class (not open)
+  HTMLQuoteElement.class (not open)
+  HTMLScriptElement.class (not open)
+  HTMLSelectElement.class (not open)
+  HTMLStyleElement.class (not open)
+  HTMLTableCaptionElement.class (not open)
+  HTMLTableCellElement.class (not open)
+  HTMLTableColElement.class (not open)
+  HTMLTableElement.class (not open)
+  HTMLTableRowElement.class (not open)
+  HTMLTableSectionElement.class (not open)
+  HTMLTextAreaElement.class (not open)
+  HTMLTitleElement.class (not open)
+  HTMLUListElement.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.241
+!MESSAGE Cannot handle oracle [in D:\JDK\jre\lib\jfr.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.242
+!MESSAGE Cannot handle org.ietf.jgss [in D:\JDK\jre\lib\rt.jar]
+  ChannelBinding.class (not open)
+  GSSContext.class (not open)
+  GSSCredential.class (not open)
+  GSSException.class (not open)
+  GSSManager.class (not open)
+  GSSName.class (not open)
+  MessageProp.class (not open)
+  Oid.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.243
+!MESSAGE Cannot handle org.junit.internal.runners.model [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ReflectiveCallable.class (not open)
+  EachTestNotifier.class (not open)
+  MultipleFailureException.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.244
+!MESSAGE Cannot handle org.omg.stub.javax [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.246
+!MESSAGE Cannot handle oracle.jrockit.jfr.jdkevents.throwabletransform [in D:\JDK\jre\lib\jfr.jar]
+  ConstructorTracerWriter.class (not open)
+  ConstructorWriter.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.247
+!MESSAGE Cannot handle org.omg.DynamicAny [in D:\JDK\jre\lib\rt.jar]
+  AnySeqHelper.class (not open)
+  DynAny.class (not open)
+  DynAnyFactory.class (not open)
+  DynAnyFactoryHelper.class (not open)
+  DynAnyFactoryOperations.class (not open)
+  DynAnyHelper.class (not open)
+  DynAnyOperations.class (not open)
+  DynAnySeqHelper.class (not open)
+  DynArray.class (not open)
+  DynArrayHelper.class (not open)
+  DynArrayOperations.class (not open)
+  DynEnum.class (not open)
+  DynEnumHelper.class (not open)
+  DynEnumOperations.class (not open)
+  DynFixed.class (not open)
+  DynFixedHelper.class (not open)
+  DynFixedOperations.class (not open)
+  DynSequence.class (not open)
+  DynSequenceHelper.class (not open)
+  DynSequenceOperations.class (not open)
+  DynStruct.class (not open)
+  DynStructHelper.class (not open)
+  DynStructOperations.class (not open)
+  DynUnion.class (not open)
+  DynUnionHelper.class (not open)
+  DynUnionOperations.class (not open)
+  DynValue.class (not open)
+  DynValueBox.class (not open)
+  DynValueBoxOperations.class (not open)
+  DynValueCommon.class (not open)
+  DynValueCommonOperations.class (not open)
+  DynValueHelper.class (not open)
+  DynValueOperations.class (not open)
+  FieldNameHelper.class
+    class FieldNameHelper
+  NameDynAnyPair.class (not open)
+  NameDynAnyPairHelper.class (not open)
+  NameDynAnyPairSeqHelper.class (not open)
+  NameValuePair.class (not open)
+  NameValuePairHelper.class (not open)
+  NameValuePairSeqHelper.class (not open)
+  _DynAnyFactoryStub.class (not open)
+  _DynAnyStub.class (not open)
+  _DynArrayStub.class (not open)
+  _DynEnumStub.class (not open)
+  _DynFixedStub.class (not open)
+  _DynSequenceStub.class (not open)
+  _DynStructStub.class (not open)
+  _DynUnionStub.class (not open)
+  _DynValueStub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.248
+!MESSAGE Cannot handle org.w3c.dom.bootstrap [in D:\JDK\jre\lib\rt.jar]
+  DOMImplementationRegistry$1.class (not open)
+  DOMImplementationRegistry$2.class (not open)
+  DOMImplementationRegistry$3.class (not open)
+  DOMImplementationRegistry$4.class (not open)
+  DOMImplementationRegistry.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.249
+!MESSAGE Cannot handle org.omg.Dynamic [in D:\JDK\jre\lib\rt.jar]
+  Parameter.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.250
+!MESSAGE Cannot handle oracle.jrockit.jfr.jdkevents [in D:\JDK\jre\lib\jfr.jar]
+  ThrowableTracer.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.250
+!MESSAGE Cannot handle org.omg.CORBA.TypeCodePackage [in D:\JDK\jre\lib\rt.jar]
+  BadKind.class (not open)
+  Bounds.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.252
+!MESSAGE Cannot handle org.w3c.dom.css [in D:\JDK\jre\lib\rt.jar]
+  CSS2Properties.class (not open)
+  CSSCharsetRule.class (not open)
+  CSSFontFaceRule.class (not open)
+  CSSImportRule.class (not open)
+  CSSMediaRule.class (not open)
+  CSSPageRule.class (not open)
+  CSSPrimitiveValue.class (not open)
+  CSSRule.class (not open)
+  CSSRuleList.class (not open)
+  CSSStyleDeclaration.class (not open)
+  CSSStyleRule.class (not open)
+  CSSStyleSheet.class (not open)
+  CSSUnknownRule.class (not open)
+  CSSValue.class (not open)
+  CSSValueList.class (not open)
+  Counter.class (not open)
+  DOMImplementationCSS.class (not open)
+  DocumentCSS.class (not open)
+  ElementCSSInlineStyle.class (not open)
+  RGBColor.class (not open)
+  Rect.class (not open)
+  ViewCSS.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.253
+!MESSAGE Cannot handle org.junit.experimental.theories [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ParameterSignature.class (not open)
+  Theories$TheoryAnchor$2.class (not open)
+  Theories$TheoryAnchor.class (not open)
+  Theory.class
+    @interface Theory
+  PotentialAssignment$1.class (not open)
+  Theories$TheoryAnchor$1$1.class (not open)
+  FromDataPoints.class
+    @interface FromDataPoints
+  DataPoints.class (not open)
+  Theories$TheoryAnchor$1.class (not open)
+  PotentialAssignment.class (not open)
+  ParametersSuppliedBy.class (not open)
+  Theories.class (not open)
+  DataPoint.class (not open)
+  PotentialAssignment$CouldNotGenerateValueException.class (not open)
+  ParameterSupplier.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.254
+!MESSAGE Cannot handle org.xml.sax.ext [in D:\JDK\jre\lib\rt.jar]
+  Attributes2.class (not open)
+  Attributes2Impl.class (not open)
+  DeclHandler.class (not open)
+  DefaultHandler2.class (not open)
+  EntityResolver2.class (not open)
+  LexicalHandler.class (not open)
+  Locator2.class (not open)
+  Locator2Impl.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.254
+!MESSAGE Cannot handle org.w3c.dom.traversal [in D:\JDK\jre\lib\rt.jar]
+  NodeFilter.class (not open)
+  NodeIterator.class (not open)
+  TreeWalker.class (not open)
+  DocumentTraversal.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.255
+!MESSAGE Cannot handle org.ietf [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.256
+!MESSAGE Cannot handle org.w3c.dom.ls [in D:\JDK\jre\lib\rt.jar]
+  DOMImplementationLS.class (not open)
+  LSException.class (not open)
+  LSInput.class (not open)
+  LSLoadEvent.class (not open)
+  LSOutput.class (not open)
+  LSParser.class (not open)
+  LSParserFilter.class (not open)
+  LSProgressEvent.class (not open)
+  LSResourceResolver.class (not open)
+  LSSerializer.class (not open)
+  LSSerializerFilter.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.257
+!MESSAGE Cannot handle org.omg.PortableInterceptor.ORBInitInfoPackage [in D:\JDK\jre\lib\rt.jar]
+  DuplicateName.class (not open)
+  DuplicateNameHelper.class (not open)
+  InvalidName.class
+    class InvalidName
+  InvalidNameHelper.class
+    class InvalidNameHelper
+  ObjectIdHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.258
+!MESSAGE Cannot handle org.junit.internal [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ExactComparisonCriteria.class (not open)
+  ArrayComparisonFailure.class
+    class ArrayComparisonFailure
+  InexactComparisonCriteria.class
+    class InexactComparisonCriteria
+  TextListener.class (not open)
+  MethodSorter.class (not open)
+  JUnitSystem.class (not open)
+  AssumptionViolatedException.class (not open)
+  RealSystem.class (not open)
+  MethodSorter$2.class (not open)
+  ComparisonCriteria.class
+    class ComparisonCriteria
+  Throwables.class (not open)
+  MethodSorter$1.class (not open)
+  Classes.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.259
+!MESSAGE Cannot handle oracle.jrockit.jfr.tools [in D:\JDK\jre\lib\jfr.jar]
+  ConCatRepository$1.class (not open)
+  ConCatRepository.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.260
+!MESSAGE Cannot handle org.junit.experimental.max [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  MaxHistory$RememberingListener.class (not open)
+  MaxCore.class (not open)
+  MaxHistory$1.class (not open)
+  MaxHistory$TestComparator.class (not open)
+  MaxCore$1.class (not open)
+  MaxCore$1$1.class (not open)
+  CouldNotReadCoreException.class (not open)
+  MaxHistory.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.261
+!MESSAGE Cannot handle org.w3c [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.262
+!MESSAGE Cannot handle org.omg.CORBA.DynAnyPackage [in D:\JDK\jre\lib\rt.jar]
+  Invalid.class
+    class Invalid
+  InvalidSeq.class
+    class InvalidSeq
+  InvalidValue.class
+    class InvalidValue
+  TypeMismatch.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.263
+!MESSAGE Cannot handle org.w3c.dom.stylesheets [in D:\JDK\jre\lib\rt.jar]
+  DocumentStyle.class (not open)
+  LinkStyle.class (not open)
+  MediaList.class (not open)
+  StyleSheet.class (not open)
+  StyleSheetList.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.264
+!MESSAGE Cannot handle org.junit.runners.parameterized [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ParametersRunnerFactory.class (not open)
+  TestWithParameters.class (not open)
+  BlockJUnit4ClassRunnerWithParameters.class (not open)
+  BlockJUnit4ClassRunnerWithParametersFactory.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.265
+!MESSAGE Cannot handle org.xml [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.266
+!MESSAGE Cannot handle org.omg.SendingContext [in D:\JDK\jre\lib\rt.jar]
+  RunTime.class (not open)
+  RunTimeOperations.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.267
+!MESSAGE Cannot handle org.omg.PortableServer.POAPackage [in D:\JDK\jre\lib\rt.jar]
+  AdapterAlreadyExists.class (not open)
+  AdapterAlreadyExistsHelper.class (not open)
+  AdapterNonExistent.class (not open)
+  AdapterNonExistentHelper.class (not open)
+  InvalidPolicy.class
+    class InvalidPolicy
+  InvalidPolicyHelper.class
+    class InvalidPolicyHelper
+  NoServant.class (not open)
+  NoServantHelper.class (not open)
+  ObjectAlreadyActive.class (not open)
+  ObjectAlreadyActiveHelper.class (not open)
+  ObjectNotActive.class (not open)
+  ObjectNotActiveHelper.class (not open)
+  ServantAlreadyActive.class (not open)
+  ServantAlreadyActiveHelper.class (not open)
+  ServantNotActive.class (not open)
+  ServantNotActiveHelper.class (not open)
+  WrongAdapter.class (not open)
+  WrongAdapterHelper.class (not open)
+  WrongPolicy.class (not open)
+  WrongPolicyHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.268
+!MESSAGE Cannot handle org.omg.CORBA_2_3.portable [in D:\JDK\jre\lib\rt.jar]
+  Delegate.class (not open)
+  InputStream$1.class (not open)
+  InputStream.class
+    class InputStream
+  ObjectImpl.class (not open)
+  OutputStream$1.class (not open)
+  OutputStream.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.269
+!MESSAGE Cannot handle org.omg.stub.java [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.270
+!MESSAGE Cannot handle org.junit.validator [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  AnnotationsValidator$FieldValidator.class (not open)
+  TestClassValidator.class (not open)
+  ValidateWith.class (not open)
+  AnnotationsValidator$AnnotatableValidator.class (not open)
+  AnnotationsValidator$MethodValidator.class (not open)
+  AnnotationsValidator$ClassValidator.class (not open)
+  AnnotationValidatorFactory.class (not open)
+  AnnotationValidator.class (not open)
+  AnnotationsValidator$1.class (not open)
+  AnnotationsValidator.class (not open)
+  PublicClassValidator.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.271
+!MESSAGE Cannot handle oracle.jrockit [in D:\JDK\jre\lib\jfr.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.272
+!MESSAGE Cannot handle org.omg.DynamicAny.DynAnyFactoryPackage [in D:\JDK\jre\lib\rt.jar]
+  InconsistentTypeCode.class
+    class InconsistentTypeCode
+  InconsistentTypeCodeHelper.class
+    class InconsistentTypeCodeHelper as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.272
+!MESSAGE Cannot handle org.omg.PortableServer [in D:\JDK\jre\lib\rt.jar]
+  AdapterActivator.class (not open)
+  AdapterActivatorOperations.class (not open)
+  Current.class (not open)
+  CurrentHelper.class (not open)
+  CurrentOperations.class (not open)
+  DynamicImplementation.class (not open)
+  ForwardRequest.class
+    class ForwardRequest
+  ForwardRequestHelper.class
+    class ForwardRequestHelper
+  ID_ASSIGNMENT_POLICY_ID.class (not open)
+  ID_UNIQUENESS_POLICY_ID.class (not open)
+  IMPLICIT_ACTIVATION_POLICY_ID.class (not open)
+  IdAssignmentPolicy.class (not open)
+  IdAssignmentPolicyOperations.class (not open)
+  IdAssignmentPolicyValue.class (not open)
+  IdUniquenessPolicy.class (not open)
+  IdUniquenessPolicyOperations.class (not open)
+  IdUniquenessPolicyValue.class (not open)
+  ImplicitActivationPolicy.class (not open)
+  ImplicitActivationPolicyOperations.class (not open)
+  ImplicitActivationPolicyValue.class (not open)
+  LIFESPAN_POLICY_ID.class (not open)
+  LifespanPolicy.class (not open)
+  LifespanPolicyOperations.class (not open)
+  LifespanPolicyValue.class (not open)
+  POA.class (not open)
+  POAHelper.class (not open)
+  POAManager.class (not open)
+  POAManagerOperations.class (not open)
+  POAOperations.class (not open)
+  REQUEST_PROCESSING_POLICY_ID.class (not open)
+  RequestProcessingPolicy.class (not open)
+  RequestProcessingPolicyOperations.class (not open)
+  RequestProcessingPolicyValue.class (not open)
+  SERVANT_RETENTION_POLICY_ID.class (not open)
+  Servant.class (not open)
+  ServantActivator.class (not open)
+  ServantActivatorHelper.class (not open)
+  ServantActivatorOperations.class (not open)
+  ServantActivatorPOA.class (not open)
+  ServantLocator.class (not open)
+  ServantLocatorHelper.class (not open)
+  ServantLocatorOperations.class (not open)
+  ServantLocatorPOA.class (not open)
+  ServantManager.class (not open)
+  ServantManagerOperations.class (not open)
+  ServantRetentionPolicy.class (not open)
+  ServantRetentionPolicyOperations.class (not open)
+  ServantRetentionPolicyValue.class (not open)
+  THREAD_POLICY_ID.class (not open)
+  ThreadPolicy.class (not open)
+  ThreadPolicyOperations.class (not open)
+  ThreadPolicyValue.class (not open)
+  _ServantActivatorStub.class (not open)
+  _ServantLocatorStub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.273
+!MESSAGE Cannot handle org.hamcrest [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar]
+  BaseDescription.class (not open)
+  BaseMatcher.class
+    class BaseMatcher
+  Condition$1.class (not open)
+  Condition$Matched.class (not open)
+  Condition$NotMatched.class (not open)
+  Condition$Step.class (not open)
+  Condition.class (not open)
+  CoreMatchers.class
+    class CoreMatchers
+  CustomMatcher.class (not open)
+  CustomTypeSafeMatcher.class (not open)
+  Description$NullDescription.class (not open)
+  Description.class (not open)
+  DiagnosingMatcher.class (not open)
+  Factory.class
+    @interface Factory
+  FeatureMatcher.class
+    class FeatureMatcher
+  Matcher.class
+    interface Matcher
+  MatcherAssert.class (not open)
+  SelfDescribing.class
+    interface SelfDescribing
+  StringDescription.class (not open)
+  TypeSafeDiagnosingMatcher.class
+    class TypeSafeDiagnosingMatcher
+  TypeSafeMatcher.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.274
+!MESSAGE Cannot handle org.omg.stub.javax.management.remote.rmi [in D:\JDK\jre\lib\rt.jar]
+  _RMIConnectionImpl_Tie.class (not open)
+  _RMIConnection_Stub.class (not open)
+  _RMIServerImpl_Tie.class (not open)
+  _RMIServer_Stub.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.275
+!MESSAGE Cannot handle org.omg.PortableServer.ServantLocatorPackage [in D:\JDK\jre\lib\rt.jar]
+  CookieHolder.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.276
+!MESSAGE Cannot handle org.junit.runner [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  FilterFactory.class
+    interface FilterFactory
+  Result.class (not open)
+  JUnitCommandLineParseResult$CommandLineParserError.class (not open)
+  Result$Listener.class (not open)
+  JUnitCommandLineParseResult.class (not open)
+  Describable.class
+    interface Describable
+  FilterFactories.class (not open)
+  Result$SerializedForm.class (not open)
+  Runner.class
+    class Runner
+  RunWith.class (not open)
+  JUnitCore.class (not open)
+  FilterFactory$FilterNotCreatedException.class (not open)
+  Result$1.class (not open)
+  Request.class
+    class Request
+  FilterFactoryParams.class
+    class FilterFactoryParams
+  Computer$1.class (not open)
+  Request$1.class (not open)
+  Description.class (not open)
+  Computer.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.277
+!MESSAGE Cannot handle org.junit.experimental.runners [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  Enclosed.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.278
+!MESSAGE Cannot handle org.w3c.dom.views [in D:\JDK\jre\lib\rt.jar]
+  AbstractView.class (not open)
+  DocumentView.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.278
+!MESSAGE Cannot handle org.omg.DynamicAny.DynAnyPackage [in D:\JDK\jre\lib\rt.jar]
+  InvalidValue.class
+    class InvalidValue
+  InvalidValueHelper.class
+    class InvalidValueHelper
+  TypeMismatch.class (not open)
+  TypeMismatchHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.280
+!MESSAGE Cannot handle org.jcp.xml.dsig.internal.dom [in D:\JDK\jre\lib\rt.jar]
+  AbstractDOMSignatureMethod$Type.class (not open)
+  AbstractDOMSignatureMethod.class (not open)
+  ApacheCanonicalizer.class (not open)
+  ApacheData.class (not open)
+  ApacheNodeSetData.class (not open)
+  ApacheOctetStreamData.class (not open)
+  ApacheTransform.class (not open)
+  DOMBase64Transform.class (not open)
+  DOMCanonicalXMLC14N11Method.class (not open)
+  DOMCanonicalXMLC14NMethod.class (not open)
+  DOMCanonicalizationMethod.class (not open)
+  DOMCryptoBinary.class (not open)
+  DOMDigestMethod$SHA1.class (not open)
+  DOMDigestMethod$SHA256.class (not open)
+  DOMDigestMethod$SHA384.class (not open)
+  DOMDigestMethod$SHA512.class (not open)
+  DOMDigestMethod.class (not open)
+  DOMEnvelopedTransform.class (not open)
+  DOMExcC14NMethod.class (not open)
+  DOMHMACSignatureMethod$SHA1.class (not open)
+  DOMHMACSignatureMethod$SHA256.class (not open)
+  DOMHMACSignatureMethod$SHA384.class (not open)
+  DOMHMACSignatureMethod$SHA512.class (not open)
+  DOMHMACSignatureMethod.class (not open)
+  DOMKeyInfo.class (not open)
+  DOMKeyInfoFactory$UnmarshalContext.class (not open)
+  DOMKeyInfoFactory.class (not open)
+  DOMKeyName.class (not open)
+  DOMKeyValue$DSA.class (not open)
+  DOMKeyValue$EC$1.class (not open)
+  DOMKeyValue$EC$2.class (not open)
+  DOMKeyValue$EC.class (not open)
+  DOMKeyValue$RSA.class (not open)
+  DOMKeyValue$Unknown.class (not open)
+  DOMKeyValue.class (not open)
+  DOMManifest.class (not open)
+  DOMPGPData.class (not open)
+  DOMReference$1.class (not open)
+  DOMReference$2.class (not open)
+  DOMReference.class (not open)
+  DOMRetrievalMethod.class (not open)
+  DOMSignatureMethod$SHA1withDSA.class (not open)
+  DOMSignatureMethod$SHA1withECDSA.class (not open)
+  DOMSignatureMethod$SHA1withRSA.class (not open)
+  DOMSignatureMethod$SHA256withDSA.class (not open)
+  DOMSignatureMethod$SHA256withECDSA.class (not open)
+  DOMSignatureMethod$SHA256withRSA.class (not open)
+  DOMSignatureMethod$SHA384withECDSA.class (not open)
+  DOMSignatureMethod$SHA384withRSA.class (not open)
+  DOMSignatureMethod$SHA512withECDSA.class (not open)
+  DOMSignatureMethod$SHA512withRSA.class (not open)
+  DOMSignatureMethod.class (not open)
+  DOMSignatureProperties.class (not open)
+  DOMSignatureProperty.class (not open)
+  DOMSignedInfo.class (not open)
+  DOMStructure.class (not open)
+  DOMSubTreeData$DelayedNodeIterator.class (not open)
+  DOMSubTreeData.class (not open)
+  DOMTransform.class (not open)
+  DOMURIDereferencer.class (not open)
+  DOMUtils$NodeSet$1.class (not open)
+  DOMUtils$NodeSet.class (not open)
+  DOMUtils.class (not open)
+  DOMX509Data.class (not open)
+  DOMX509IssuerSerial.class (not open)
+  DOMXMLObject.class (not open)
+  DOMXMLSignature$DOMSignatureValue.class (not open)
+  DOMXMLSignature.class (not open)
+  DOMXMLSignatureFactory$UnmarshalContext.class (not open)
+  DOMXMLSignatureFactory.class (not open)
+  DOMXPathFilter2Transform.class (not open)
+  DOMXPathTransform.class (not open)
+  DOMXSLTTransform.class (not open)
+  Policy.class (not open)
+  Utils.class (not open)
+  XMLDSigRI$1.class (not open)
+  XMLDSigRI.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.281
+!MESSAGE Cannot handle org.omg.IOP.CodecFactoryPackage [in D:\JDK\jre\lib\rt.jar]
+  UnknownEncoding.class (not open)
+  UnknownEncodingHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.282
+!MESSAGE Cannot handle org.omg.IOP [in D:\JDK\jre\lib\rt.jar]
+  CodeSets.class (not open)
+  Codec.class (not open)
+  CodecFactory.class (not open)
+  CodecFactoryHelper.class (not open)
+  CodecFactoryOperations.class (not open)
+  CodecOperations.class (not open)
+  ComponentIdHelper.class (not open)
+  ENCODING_CDR_ENCAPS.class (not open)
+  Encoding.class (not open)
+  ExceptionDetailMessage.class (not open)
+  IOR.class (not open)
+  IORHelper.class (not open)
+  IORHolder.class (not open)
+  MultipleComponentProfileHelper.class (not open)
+  MultipleComponentProfileHolder.class (not open)
+  ProfileIdHelper.class (not open)
+  RMICustomMaxStreamFormat.class (not open)
+  ServiceContext.class (not open)
+  ServiceContextHelper.class (not open)
+  ServiceContextHolder.class (not open)
+  ServiceContextListHelper.class (not open)
+  ServiceContextListHolder.class (not open)
+  ServiceIdHelper.class (not open)
+  TAG_ALTERNATE_IIOP_ADDRESS.class (not open)
+  TAG_CODE_SETS.class (not open)
+  TAG_INTERNET_IOP.class (not open)
+  TAG_JAVA_CODEBASE.class (not open)
+  TAG_MULTIPLE_COMPONENTS.class (not open)
+  TAG_ORB_TYPE.class (not open)
+  TAG_POLICIES.class (not open)
+  TAG_RMI_CUSTOM_MAX_STREAM_FORMAT.class (not open)
+  TaggedComponent.class (not open)
+  TaggedComponentHelper.class (not open)
+  TaggedComponentHolder.class (not open)
+  TaggedProfile.class (not open)
+  TaggedProfileHelper.class (not open)
+  TaggedProfileHolder.class (not open)
+  TransactionService.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.285
+!MESSAGE Cannot handle org.junit.experimental.theories.internal [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  AllMembersSupplier$MethodParameterValue.class (not open)
+  AllMembersSupplier.class (not open)
+  EnumSupplier.class (not open)
+  Assignments.class (not open)
+  SpecificDataPointsSupplier.class (not open)
+  BooleanSupplier.class (not open)
+  AllMembersSupplier$1.class (not open)
+  ParameterizedAssertionError.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.287
+!MESSAGE Cannot handle org.xml.sax.helpers [in D:\JDK\jre\lib\rt.jar]
+  AttributeListImpl.class (not open)
+  AttributesImpl.class (not open)
+  LocatorImpl.class (not open)
+  NamespaceSupport$Context.class (not open)
+  NamespaceSupport.class (not open)
+  NewInstance.class (not open)
+  ParserAdapter$AttributeListAdapter.class (not open)
+  ParserAdapter.class (not open)
+  ParserFactory.class (not open)
+  SecuritySupport$1.class (not open)
+  SecuritySupport$2.class (not open)
+  SecuritySupport$3.class (not open)
+  SecuritySupport$4.class (not open)
+  SecuritySupport$5.class (not open)
+  SecuritySupport.class (not open)
+  XMLFilterImpl.class (not open)
+  XMLReaderAdapter$AttributesAdapter.class (not open)
+  XMLReaderAdapter.class (not open)
+  XMLReaderFactory.class (not open)
+  DefaultHandler.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.288
+!MESSAGE Cannot handle org.omg [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.289
+!MESSAGE Cannot handle org.omg.PortableInterceptor [in D:\JDK\jre\lib\rt.jar]
+  ACTIVE.class (not open)
+  AdapterManagerIdHelper.class (not open)
+  AdapterNameHelper.class (not open)
+  AdapterStateHelper.class (not open)
+  ClientRequestInfo.class (not open)
+  ClientRequestInfoOperations.class (not open)
+  ClientRequestInterceptor.class (not open)
+  ClientRequestInterceptorOperations.class (not open)
+  Current.class (not open)
+  CurrentHelper.class (not open)
+  CurrentOperations.class (not open)
+  DISCARDING.class (not open)
+  ForwardRequest.class
+    class ForwardRequest
+  ForwardRequestHelper.class
+    class ForwardRequestHelper
+  HOLDING.class (not open)
+  INACTIVE.class (not open)
+  IORInfo.class (not open)
+  IORInfoOperations.class (not open)
+  IORInterceptor.class (not open)
+  IORInterceptorOperations.class (not open)
+  IORInterceptor_3_0.class (not open)
+  IORInterceptor_3_0Helper.class (not open)
+  IORInterceptor_3_0Holder.class (not open)
+  IORInterceptor_3_0Operations.class (not open)
+  Interceptor.class
+    interface Interceptor
+  InterceptorOperations.class
+    interface InterceptorOperations
+  InvalidSlot.class
+    class InvalidSlot
+  InvalidSlotHelper.class
+    class InvalidSlotHelper
+  LOCATION_FORWARD.class (not open)
+  NON_EXISTENT.class (not open)
+  ORBIdHelper.class (not open)
+  ORBInitInfo.class (not open)
+  ORBInitInfoOperations.class (not open)
+  ORBInitializer.class (not open)
+  ORBInitializerOperations.class (not open)
+  ObjectIdHelper.class (not open)
+  ObjectReferenceFactory.class (not open)
+  ObjectReferenceFactoryHelper.class (not open)
+  ObjectReferenceFactoryHolder.class (not open)
+  ObjectReferenceTemplate.class (not open)
+  ObjectReferenceTemplateHelper.class (not open)
+  ObjectReferenceTemplateHolder.class (not open)
+  ObjectReferenceTemplateSeqHelper.class (not open)
+  ObjectReferenceTemplateSeqHolder.class (not open)
+  PolicyFactory.class (not open)
+  PolicyFactoryOperations.class (not open)
+  RequestInfo.class (not open)
+  RequestInfoOperations.class (not open)
+  SUCCESSFUL.class (not open)
+  SYSTEM_EXCEPTION.class (not open)
+  ServerIdHelper.class (not open)
+  ServerRequestInfo.class (not open)
+  ServerRequestInfoOperations.class (not open)
+  ServerRequestInterceptor.class (not open)
+  ServerRequestInterceptorOperations.class (not open)
+  TRANSPORT_RETRY.class (not open)
+  USER_EXCEPTION.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.290
+!MESSAGE Cannot handle org [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.291
+!MESSAGE Cannot handle org.omg.IOP.CodecPackage [in D:\JDK\jre\lib\rt.jar]
+  FormatMismatch.class
+    class FormatMismatch
+  FormatMismatchHelper.class
+    class FormatMismatchHelper
+  InvalidTypeForEncoding.class
+    class InvalidTypeForEncoding
+  InvalidTypeForEncodingHelper.class
+    class InvalidTypeForEncodingHelper
+  TypeMismatch.class (not open)
+  TypeMismatchHelper.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.292
+!MESSAGE Cannot handle org.junit.matchers [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  JUnitMatchers.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.293
+!MESSAGE Cannot handle org.junit.experimental.results [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  ResultMatchers$1.class (not open)
+  ResultMatchers$2.class (not open)
+  FailureList.class (not open)
+  ResultMatchers$3.class (not open)
+  ResultMatchers.class (not open)
+  PrintableResult.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.294
+!MESSAGE Cannot handle org.xml.sax [in D:\JDK\jre\lib\rt.jar]
+  Attributes.class (not open)
+  DocumentHandler.class (not open)
+  HandlerBase.class (not open)
+  Parser.class (not open)
+  XMLFilter.class (not open)
+  XMLReader.class (not open)
+  AttributeList.class (not open)
+  SAXParseException.class (not open)
+  SAXNotRecognizedException.class (not open)
+  Locator.class (not open)
+  SAXNotSupportedException.class (not open)
+  ErrorHandler.class (not open)
+  ContentHandler.class (not open)
+  DTDHandler.class (not open)
+  InputSource.class
+    class InputSource
+  EntityResolver.class (not open)
+  SAXException.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.295
+!MESSAGE Cannot handle org.hamcrest.core [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar]
+  AllOf.class (not open)
+  AnyOf.class
+    class AnyOf
+  CombinableMatcher$CombinableBothMatcher.class
+    class CombinableBothMatcher
+  CombinableMatcher$CombinableEitherMatcher.class
+    class CombinableEitherMatcher
+  CombinableMatcher.class
+    class CombinableMatcher
+  DescribedAs.class (not open)
+  Every.class (not open)
+  Is.class (not open)
+  IsAnything.class (not open)
+  IsCollectionContaining.class (not open)
+  IsEqual.class (not open)
+  IsInstanceOf.class (not open)
+  IsNot.class (not open)
+  IsNull.class (not open)
+  IsSame.class (not open)
+  ShortcutCombination.class (not open)
+  StringContains.class (not open)
+  StringEndsWith.class (not open)
+  StringStartsWith.class (not open)
+  SubstringMatcher.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.296
+!MESSAGE Cannot handle org.junit.runner.manipulation [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  NoTestsRemainException.class (not open)
+  Sortable.class (not open)
+  Filter.class
+    class Filter
+  Filter$2.class (not open)
+  Filter$3.class (not open)
+  Sorter.class (not open)
+  Sorter$1.class (not open)
+  Filterable.class
+    interface Filterable
+  Filter$1.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.297
+!MESSAGE Cannot handle org.junit.internal.runners.statements [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  FailOnTimeout$1.class (not open)
+  Fail.class
+    class Fail
+  FailOnTimeout.class
+    class FailOnTimeout
+  RunAfters.class (not open)
+  RunBefores.class (not open)
+  ExpectException.class (not open)
+  InvokeMethod.class
+    class InvokeMethod
+  FailOnTimeout$Builder.class
+    class Builder
+  FailOnTimeout$CallableStatement.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.298
+!MESSAGE Cannot handle oracle.jrockit.jfr.parser [in D:\JDK\jre\lib\jfr.jar]
+  AbstractStructProxy$1.class (not open)
+  AbstractStructProxy.class (not open)
+  BufferLostEvent.class (not open)
+  ChunkParser$1.class (not open)
+  ChunkParser$2.class (not open)
+  ChunkParser$3.class (not open)
+  ChunkParser.class (not open)
+  ContentTypeDescriptor.class (not open)
+  ContentTypeResolver.class (not open)
+  EventData.class (not open)
+  EventProxy.class (not open)
+  FLREvent.class (not open)
+  FLREventInfo.class (not open)
+  FLRInput.class (not open)
+  FLRProducer.class (not open)
+  FLRStruct.class (not open)
+  FLRValueInfo.class (not open)
+  MappedFLRInput.class (not open)
+  ParseException.class (not open)
+  Parser$1.class (not open)
+  Parser.class (not open)
+  ProducerData.class (not open)
+  RandomAccessFileFLRInput.class (not open)
+  SubStruct.class (not open)
+  ValueData.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.299
+!MESSAGE Cannot handle oracle.jrockit.jfr [in D:\JDK\jre\lib\jfr.jar]
+  ActiveRecordingEvent.class (not open)
+  ActiveSettingEvent.class (not open)
+  ChunksChannel.class (not open)
+  DCmd$1.class (not open)
+  DCmd$RecordingIdentifier.class (not open)
+  DCmd$Unit.class (not open)
+  DCmd.class (not open)
+  DCmdCheck$1.class (not open)
+  DCmdCheck.class (not open)
+  DCmdDump.class (not open)
+  DCmdException.class (not open)
+  DCmdStart.class (not open)
+  DCmdStop.class (not open)
+  FileChannelImplInstrumentor.class (not open)
+  FileInputStreamInstrumentor.class (not open)
+  FileOutputStreamInstrumentor.class (not open)
+  FlightRecorder.class (not open)
+  FlightRecording.class (not open)
+  JFR$1.class (not open)
+  JFR$2.class (not open)
+  JFR$3.class (not open)
+  JFR$4.class (not open)
+  JFR.class (not open)
+  JFRImpl$1.class (not open)
+  JFRImpl.class (not open)
+  JFRStats.class (not open)
+  Logger$1.class (not open)
+  Logger.class (not open)
+  MetaProducer.class (not open)
+  MsgLevel.class (not open)
+  NativeEventControl.class (not open)
+  NativeJFRStats.class (not open)
+  NativeOptions.class (not open)
+  NativeProducerDescriptor.class (not open)
+  NoSuchProducerException.class (not open)
+  Options.class (not open)
+  Process.class (not open)
+  ProducerDescriptor.class (not open)
+  RandomAccessFileInstrumentor.class (not open)
+  Recording$1.class (not open)
+  Recording$2.class (not open)
+  Recording$3.class (not open)
+  Recording.class (not open)
+  RecordingOptions.class (not open)
+  RecordingOptionsImpl.class (not open)
+  RecordingStream.class (not open)
+  Repository$1.class (not open)
+  Repository$2.class (not open)
+  Repository$3.class (not open)
+  Repository$4.class (not open)
+  Repository.class (not open)
+  RepositoryChunk$1.class (not open)
+  RepositoryChunk$2.class (not open)
+  RepositoryChunk$3.class (not open)
+  RepositoryChunk$4.class (not open)
+  RepositoryChunk$5.class (not open)
+  RepositoryChunk.class (not open)
+  Settings$Aggregator.class (not open)
+  Settings.class (not open)
+  SocketChannelImplInstrumentor.class (not open)
+  SocketInputStreamInstrumentor$AbstractPlainSocketImpl.class (not open)
+  SocketInputStreamInstrumentor$InetAddress.class (not open)
+  SocketInputStreamInstrumentor$InetAddressHolder.class (not open)
+  SocketInputStreamInstrumentor.class (not open)
+  SocketOutputStreamInstrumentor$AbstractPlainSocketImpl.class (not open)
+  SocketOutputStreamInstrumentor$InetAddress.class (not open)
+  SocketOutputStreamInstrumentor$InetAddressHolder.class (not open)
+  SocketOutputStreamInstrumentor.class (not open)
+  StringConstantPool$1.class (not open)
+  StringConstantPool.class (not open)
+  ThrowableInstrumentor.class (not open)
+  Timing.class (not open)
+  VMJFR$1.class (not open)
+  VMJFR$2.class (not open)
+  VMJFR$JILogAdapter.class (not open)
+  VMJFR$ThreadBuffer.class (not open)
+  VMJFR.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.300
+!MESSAGE Cannot handle org.junit.internal.runners.rules [in D:\STS\sts-bundle\sts-3.9.10.RELEASE\plugins\org.junit_4.12.0.v201504281640\junit.jar]
+  RuleMemberValidator.class (not open)
+  RuleMemberValidator$MethodMustBeARule.class (not open)
+  RuleMemberValidator$MemberMustBePublic.class (not open)
+  ValidationError.class (not open)
+  RuleMemberValidator$MemberMustBeStatic.class (not open)
+  RuleMemberValidator$Builder.class (not open)
+  RuleMemberValidator$MemberMustBeNonStaticOrAlsoClassRule.class (not open)
+  RuleMemberValidator$FieldMustBeARule.class (not open)
+  RuleMemberValidator$MethodMustBeATestRule.class (not open)
+  RuleMemberValidator$RuleValidator.class (not open)
+  RuleMemberValidator$1.class (not open)
+  RuleMemberValidator$DeclaringClassMustBePublic.class (not open)
+  RuleMemberValidator$FieldMustBeATestRule.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.301
+!MESSAGE Cannot handle org.w3c.dom [in D:\JDK\jre\lib\rt.jar]
+  DOMConfiguration.class (not open)
+  DOMError.class (not open)
+  DOMErrorHandler.class (not open)
+  DOMImplementation.class (not open)
+  DOMImplementationList.class (not open)
+  DOMImplementationSource.class (not open)
+  DOMLocator.class (not open)
+  DOMStringList.class (not open)
+  NameList.class (not open)
+  TypeInfo.class (not open)
+  UserDataHandler.class (not open)
+  NamedNodeMap.class (not open)
+  DocumentFragment.class (not open)
+  Comment.class (not open)
+  ProcessingInstruction.class (not open)
+  EntityReference.class (not open)
+  Attr.class (not open)
+  Notation.class (not open)
+  DocumentType.class (not open)
+  DOMException.class (not open)
+  Text.class (not open)
+  CDATASection.class (not open)
+  CharacterData.class (not open)
+  Element.class (not open)
+  Entity.class (not open)
+  NodeList.class (not open)
+  Document.class (not open)
+  Node.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.301
+!MESSAGE Cannot handle oracle.jrockit.jfr.settings [in D:\JDK\jre\lib\jfr.jar]
+  EventDefault.class (not open)
+  EventDefaultSet.class (not open)
+  EventSetting.class (not open)
+  EventSettings.class (not open)
+  JFCParser$1.class (not open)
+  JFCParser$ConfigurationHandler.class (not open)
+  JFCParser$RethrowErrorHandler.class (not open)
+  JFCParser.class (not open)
+  PresetFile$1.class (not open)
+  PresetFile$PresetFileFilter.class (not open)
+  PresetFile$PresetProxy.class (not open)
+  PresetFile.class (not open)
+  StringParse.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.302
+!MESSAGE Cannot handle org.jcp.xml [in D:\JDK\jre\lib\rt.jar] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-12-24 16:42:35.303
+!MESSAGE Cannot handle org.jcp [in D:\JDK\jre\lib\rt.jar] as return type.
