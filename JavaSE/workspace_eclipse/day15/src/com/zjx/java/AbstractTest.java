@@ -39,7 +39,7 @@ abstract class Creature{
 	public abstract void breath();
 }
 
-class Person extends Creature{
+abstract class Person extends Creature{
 	
 	String name;
 	int age;
@@ -54,26 +54,24 @@ class Person extends Creature{
 	}
 	
 	//不是抽象方法
-	public void eat() {
-		
-	}
+//	public void eat() {
+//		
+//	}
 	
 	//抽象方法
-//	public abstract void eat();
+	public abstract void eat();
 	
 	public void walk() {
 		System.out.println("人走路");
-	}
-
-	@Override
-	public void breath() {
-		// TODO Auto-generated method stub
-		
 	}
 }
 
 
 class Student extends Person{
+	
+	public Student() {
+		
+	}
 	
 	public Student(String name, int age) {
 		super(name, age);
@@ -83,6 +81,12 @@ class Student extends Person{
 	public void eat() {
 		// TODO Auto-generated method stub
 		System.out.println("student eat");
+	}
+
+	@Override
+	public void breath() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

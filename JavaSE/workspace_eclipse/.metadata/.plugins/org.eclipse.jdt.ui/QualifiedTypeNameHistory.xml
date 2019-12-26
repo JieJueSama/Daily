@@ -28,4 +28,16 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.zjx.java2.Order"/>
 <fullyQualifiedTypeName name="com.zjx.java3.FinalTest"/>
+<fullyQualifiedTypeName name="com.zjx.java.SubTemplate"/>
+<fullyQualifiedTypeName name="com.zjx.java1.Attack"/>
+<fullyQualifiedTypeName name="com.zjx.java1.Computer"/>
+<fullyQualifiedTypeName name="com.zjx.java1.Flash"/>
+<fullyQualifiedTypeName name="com.zjx.java1.USB"/>
+<fullyQualifiedTypeName name="com.zjx.java8.CompareA"/>
+<fullyQualifiedTypeName name="com.zjx.java8.SubClass"/>
+<fullyQualifiedTypeName name="com.zjx.java8.SubClassTest"/>
+<fullyQualifiedTypeName name="com.zjx.java8.SuperClass"/>
+<fullyQualifiedTypeName name="com.zjx.java2.Person.Dog"/>
+<fullyQualifiedTypeName name="com.zjx.java2.Person.Bird"/>
+<fullyQualifiedTypeName name="MyComparable"/>
 </qualifiedTypeNameHistroy>
