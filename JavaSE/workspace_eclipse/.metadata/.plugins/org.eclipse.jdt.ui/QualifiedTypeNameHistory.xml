@@ -22,7 +22,6 @@
 <fullyQualifiedTypeName name="com.zjx.java.Person"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="com.zjx.java1.Customer"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
@@ -40,4 +39,14 @@
 <fullyQualifiedTypeName name="com.zjx.java2.Person.Dog"/>
 <fullyQualifiedTypeName name="com.zjx.java2.Person.Bird"/>
 <fullyQualifiedTypeName name="MyComparable"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="com.zjx.java1.SuperClass"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="com.zjx.java1.OverrideTest"/>
+<fullyQualifiedTypeName name="com.zjx.java1.SubClass"/>
+<fullyQualifiedTypeName name="com.zjx.java2.Student"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.zjx.java2.MyException"/>
 </qualifiedTypeNameHistroy>
